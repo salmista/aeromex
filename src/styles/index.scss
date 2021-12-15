@@ -1,0 +1,31 @@
+@import "./Card";
+@import "./Menu";
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #0a1e25;
+	background-image: url("https://aeromex.herokuapp.com/img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.p-all-1 {
+	padding: 10px;
+}
+
+.Page {
+	padding: 0 150px;
+}
+
+@media (max-width: 1200px) {
+	.Page {
+		padding: 0 20px;
+	}
+}
+
+.Float-button {
+	position: absolute;
+	top: 0;
+	right: 100px;
+}
